@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Advent Of Code 2022 Day2");
 
-var dataset = File.ReadAllLines(@"C:\Users\nick.verhaegen\source\repos\Aoc-2022\Day2\data\prod.txt");
+var dataset = File.ReadAllLines("C:\\Dev\\Aoc-2022\\Day2\\data\\prod.txt");
 
 List<string> winners = new List<string>() { "C X", "B Z", "A Y" };
 List<string> equalizers = new List<string>() { "C Z", "B Y", "A X" };
